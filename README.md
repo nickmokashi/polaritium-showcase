@@ -90,7 +90,7 @@ Every AI path is tested against a pretend Claude. No paid request has been made 
 
 Version 1.0.0, 17 October 2026. It installs, runs, saves and uninstalls cleanly, and passes 127 unit and integration tests, 43 interface tests in a headless browser, 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which is synthesized live from the simulation, so every concentration has a voice at its own rhythm.
 
-The code is private. This page shows what the game is and what works.
+The code is free and open source under the MIT License: [github.com/nickmokashi/polaritium](https://github.com/nickmokashi/polaritium). This page shows what the game is and what works.
 
 ## Built with
 
