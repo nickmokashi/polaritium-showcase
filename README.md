@@ -94,7 +94,7 @@ Every AI path is tested against a pretend Claude. No paid request has been made 
 
 ## Where it stands
 
-Version 1.1.1, 26 October 2026, which makes the tutorial and the first puzzle explain themselves better (every step says why, what to do and what will change; each puzzle says where to begin). It installs, runs, saves and uninstalls cleanly, and passes 139 unit and integration tests, interface tests in a headless browser (including the whole tutorial played through by mouse and keyboard), 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which is synthesized live from the simulation, so every concentration has a voice at its own rhythm.
+Version 1.2.0, 26 October 2026, which adds six calm, hypnotic music tracks that change with where you are, softens every sound effect, and adds a Music volume slider (1.1.1 made the tutorial and each puzzle explain themselves better). It installs, runs, saves and uninstalls cleanly, and passes 141 unit and integration tests, interface tests in a headless browser (including the whole tutorial played through by mouse and keyboard), 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which has calm music plus effects synthesized live from the simulation, so every concentration has a voice at its own rhythm.
 
 The source code is private. This page shows what the game is and what works.
 
