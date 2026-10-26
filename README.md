@@ -12,7 +12,7 @@ The whole game asks one question: *what happens if I try this?*
 
 ## Start here: the tutorial
 
-A new player is offered a five-minute tutorial before anything else. It teaches one idea at a time in a small practice universe: look around, touch the light, move it, see the connections, tune a rhythm, send a wave, stop time, make something new, connect it, and let it run. Each step hands over only the tool it needs, waits for the player to really do it, and shows a tick when it worked. If a step takes a while, it offers an easier way and a way past. It can be left at any point and played again later.
+A new player is offered a five-minute tutorial before anything else. It teaches one idea at a time in a small practice universe: look around, touch the light, move it, see the connections, tune a rhythm, send a wave, stop time, make something new, connect it, and let it run. Each step hands over only the tool it needs, circles its button, waits for the player to really do it, shows a tick when it worked, and waits for them to click Next. If a step takes a while, it offers an easier way and a way past. It can be left at any point and played again later.
 
 ![The tutorial's first step: a light and a dark in the Void Cradle, with the tutorial card explaining what they are](screenshots/12-tutorial.jpg)
 
@@ -94,7 +94,7 @@ Every AI path is tested against a pretend Claude. No paid request has been made 
 
 ## Where it stands
 
-Version 1.2.0, 26 October 2026, which adds six calm, hypnotic music tracks that change with where you are, softens every sound effect, and adds a Music volume slider (1.1.1 made the tutorial and each puzzle explain themselves better). It installs, runs, saves and uninstalls cleanly, and passes 141 unit and integration tests, interface tests in a headless browser (including the whole tutorial played through by mouse and keyboard), 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which has calm music plus effects synthesized live from the simulation, so every concentration has a voice at its own rhythm.
+Version 1.2.1, 26 October 2026: the tutorial waits for you and circles the button each step is about, the first puzzle explains how it is really solved, and six calm, hypnotic music tracks play in order everywhere, with softer sound effects and a Music volume slider. It installs, runs, saves and uninstalls cleanly, and passes 140 unit and integration tests, interface tests in a headless browser (including the whole tutorial played through by mouse and keyboard), 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which has calm music plus effects synthesized live from the simulation, so every concentration has a voice at its own rhythm.
 
 The source code is private. This page shows what the game is and what works.
 
