@@ -2,13 +2,19 @@
 
 ### A universe of opposing forces you can touch.
 
-![The main menu: a small constellation of light and grey joined by strands, floating in the dark](screenshots/01-menu.jpg)
+![The main menu: a small constellation of light and grey joined by strands, floating in the dark, with the tutorial offered first to a new player](screenshots/01-menu.jpg)
 
 Polaritium is a 3D game for Windows. Its universe is made of one strange, made-up medium that shows itself three ways: **light**, which gives energy out, **dark**, which draws energy in and holds it, and **grey**, which sits between things and passes energy, rhythm and change from one to the other. None of them is good or bad.
 
 You reach in and touch them. Connect a light to a dark and energy flows along the strand. Tune two things to nearby rhythms and they fall into step. Push a strand too hard and it snaps. Nothing is scripted: rings, membranes, crystals and small living forms appear only when the conditions allow them, and then they keep going on their own.
 
 The whole game asks one question: *what happens if I try this?*
+
+## Start here: the tutorial
+
+A new player is offered a five-minute tutorial before anything else. It teaches one idea at a time in a small practice universe: look around, touch the light, move it, see the connections, tune a rhythm, send a wave, stop time, make something new, connect it, and let it run. Each step hands over only the tool it needs, waits for the player to really do it, and shows a tick when it worked. If a step takes a while, it offers an easier way and a way past. It can be left at any point and played again later.
+
+![The tutorial's first step: a light and a dark in the Void Cradle, with the tutorial card explaining what they are](screenshots/12-tutorial.jpg)
 
 ## What you can do
 
@@ -62,9 +68,9 @@ Each place can start empty or with one of seven starting systems, from a single 
 
 ## Twelve Paradox Chambers
 
-Twelve puzzles, each a question with more than one answer: make the light circle the dark, keep a crystal whole while the drummer beats, bring six mediators into one rhythm, carry a ring across the Threshold. A chamber checks its goal from the simulation itself, so any way that truly works counts.
+Twelve puzzles, each a question with more than one answer: make the light circle the dark, keep a crystal whole while the drummer beats, bring six mediators into one rhythm, carry a ring across the Threshold. A chamber checks its goal from the simulation itself, so any way that truly works counts. The first unsolved one is marked *Start here*, each chamber lists the tools it uses, and its Hint button offers a nudge when nothing has moved for a while.
 
-![The Paradox Chambers: twelve cards, each with its question and the place it is set](screenshots/07-paradox-chambers.png)
+![The Paradox Chambers: twelve cards, each with its question and the place it is set, the first marked Start here](screenshots/07-paradox-chambers.png)
 
 ## Optional AI, with a hard limit
 
@@ -88,7 +94,7 @@ Every AI path is tested against a pretend Claude. No paid request has been made 
 
 ## Where it stands
 
-Version 1.0.0, 17 October 2026. It installs, runs, saves and uninstalls cleanly, and passes 127 unit and integration tests, 43 interface tests in a headless browser, 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which is synthesized live from the simulation, so every concentration has a voice at its own rhythm.
+Version 1.1.0, 25 October 2026, which adds the tutorial. It installs, runs, saves and uninstalls cleanly, and passes 127 unit and integration tests, interface tests in a headless browser (including the whole tutorial played through by mouse and keyboard), 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which is synthesized live from the simulation, so every concentration has a voice at its own rhythm.
 
 The source code is private. This page shows what the game is and what works.
 
