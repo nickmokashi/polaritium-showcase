@@ -8,6 +8,8 @@ Polaritium is a 3D game for Windows. Its universe is made of one strange, made-u
 
 You reach in and touch them. Connect a light to a dark and energy flows along the strand. Tune two things to nearby rhythms and they fall into step. Push a strand too hard and it snaps. Nothing is scripted: rings, membranes, crystals and small living forms appear only when the conditions allow them, and then they keep going on their own.
 
+And it is an instrument. Every ball sings a note and wears that note's colour, so the universe plays its own slow music as it moves, and you shape that music by shaping the universe.
+
 The whole game asks one question: *what happens if I try this?*
 
 ## Start here: the tutorial
@@ -30,7 +32,19 @@ A new player is offered a five-minute tutorial before anything else. It teaches 
 
 ![Strand Sight: the same loop with everything quieted except the strands, the strongest one glowing](screenshots/03-strand-sight.jpg)
 
-## The twelve tools
+## The universe plays music
+
+Every ball sings. Its rhythm picks a note from one five-note scale, on one steady beat, over a slow chord, so nothing you do can sound wrong. Colour is the note: light balls glow in a pale tint of it, dark balls hold a deep shade of it, grey sits between. Notes that sound best together wear nearly opposite colours, and with the harmony pull on they drift toward each other, while clashing notes drift apart.
+
+The Music panel shows the notes playing as a ring of colours, and holds the controls: tempo, four moods (Calm, Bright, Dreamy, Dark), scenes you can flip between like parts of a song, a starter kit of four balls that already sound good together, and Bubbles: see-through spheres you draw over a group of balls to quiet them all, or to hear only them. Any ball can be muted, soloed or removed from its own card, and its + and - buttons move it one note at a time.
+
+![The Music panel beside a starter kit: coloured balls joined by strands, the tempo dial, the four moods, the harmony pull and a saved scene](screenshots/13-living-score.png)
+
+**Your own sounds.** Drop in your own loops and sounds. The game works out each one's tempo, key or note; loops are stretched to the beat and moved into key, a line that plays one note at a time is tuned note by note, and single sounds are retuned to each ball's note. You choose which kind of ball plays which sound. Everything stays on your computer.
+
+![My sounds: a loop recognised as 100 beats a minute, 8 beats long, in D minor, and a pluck recognised as the note E, with a choice of sound for dark, light and grey balls](screenshots/14-my-sounds.png)
+
+## The fourteen tools
 
 Every tool sits on the rail at the left and has its own key. Each one also works without dragging, from the keyboard.
 
@@ -39,13 +53,15 @@ Every tool sits on the rail at the left and has its own key. Each one also works
 | 1 | Hand | Select, grab and throw. |
 | 2 | Seed | Place new light, dark, grey, a crystal seed or a living form. |
 | 3 | Strand | Connect two things so energy can flow between them. |
+| X | Scissors | Cut a strand. |
 | 4 | Pull | Draw things toward a point (or push them away), or shorten and lengthen a strand. |
 | 5 | Twist | Twist a strand. A twisted strand carrying flow turns its ends around each other. |
 | 6 | Pulse | Send a wave through the medium. Hold longer for a stronger one. |
-| 7 | Tune | Change something's rhythm, which you can hear, or how tightly a strand couples. |
-| 8 | Fracture | Cut a strand, or shake something until it may break. |
+| 7 | Tune | Change something's rhythm, and so the note it sings, or how tightly a strand couples. |
+| 8 | Fracture | Shake something until it may break. |
 | 9 | Fuse | Merge two things into one. |
 | 0 | Veil | Place a shield that keeps its inside apart from the outside. |
+| B | Bubble | Draw a see-through bubble that quiets what is inside it, or plays only that. It changes only the sound. |
 | L | Lens | Show the invisible: pooled light, passing vibration, the pull on each thing. |
 | K | Anchor | Hold something in place, or hold its rhythm or its energy. |
 
@@ -66,11 +82,13 @@ Each place can start empty or with one of seven starting systems, from a single 
 
 ![The Fracture Garden: angular crystals drifting among lights and a dark](screenshots/06-fracture-garden.jpg)
 
-## Twelve Paradox Chambers
+## Six Sound Puzzles
 
-Twelve puzzles, each a question with more than one answer: make the light circle the dark, keep a crystal whole while the drummer beats, bring six mediators into one rhythm, carry a ring across the Threshold. A chamber checks its goal from the simulation itself, so any way that truly works counts. The first unsolved one is marked *Start here*, each chamber lists the tools it uses, and its Hint button offers a nudge when nothing has moved for a while.
+Each puzzle starts with something that sounds wrong, and is solved by making it sound right: one note out of tune, a chord with no bass, too many voices at once, three notes that have to become a chord, two notes that have to agree before they can come together, and a clashing note tied where it does not belong. Each one is checked from the notes the balls actually sing, so any way that truly works counts, and each one has been solved by a test that plays it through the screen. The first unsolved one is marked *Start here*, and its Hint button offers a nudge when nothing has moved for a while.
 
-![The Paradox Chambers: twelve cards, each with its question and the place it is set, the first marked Start here](screenshots/07-paradox-chambers.png)
+![The Sound Puzzles: six cards, each with its goal, the first marked Start here](screenshots/07-paradox-chambers.png)
+
+![Too Many Voices, solved: a bubble drawn over the clashing group quiets it, and the ring shows the notes still singing](screenshots/15-sound-puzzle.png)
 
 ## Optional AI, with a hard limit
 
@@ -87,14 +105,14 @@ Every AI path is tested against a pretend Claude. No paid request has been made 
 
 ## System needs
 
-- Windows 10 or 11, 64-bit. The installer is 115 MB.
+- Windows 10 or 11, 64-bit. The installer is 150 MB.
 - Works offline, with no account. AI is the only part that uses the internet, and only when you ask.
 - Tested on a laptop with Intel UHD integrated graphics (Core i3, 16 GB), where every graphics level, Low to Ultra, held its frame limit. Older or weaker graphics may need Low.
 - **The installer is not code-signed.** Windows SmartScreen warns the first time it runs ("Windows protected your PC"); choose **More info**, then **Run anyway**.
 
 ## Where it stands
 
-Version 1.2.1, 26 October 2026: the tutorial waits for you and circles the button each step is about, the first puzzle explains how it is really solved, and six calm, hypnotic music tracks play in order everywhere, with softer sound effects and a Music volume slider. It installs, runs, saves and uninstalls cleanly, and passes 140 unit and integration tests, interface tests in a headless browser (including the whole tutorial played through by mouse and keyboard), 6 desktop-app tests and a 26-step installer check. Not yet checked: a real Claude request, and a first listen to the sound, which has calm music plus effects synthesized live from the simulation, so every concentration has a voice at its own rhythm.
+Version 1.4.0, 26 October 2026: the universe became an instrument. Balls wear the colour of the note they sing; the harmony pull draws agreeing notes together; your own loops and sounds can be added, fitted to the beat and the key and played by the balls; Mute, Solo, Remove, the Bubble and the Scissors shape the mix; tempo, mood, scenes and a starter kit sit in the Music panel; and the puzzles are six new Sound Puzzles. It installs, upgrades from 1.3.0, runs, saves and uninstalls cleanly, and passes 152 unit and integration tests, 57 interface tests in a headless browser (every puzzle solved through the screen, the tutorial played through, your own sounds added and heard in time), 6 desktop-app tests and the installer checks. Not yet checked: a real Claude request, and a first listen by a person.
 
 The source code is private. This page shows what the game is and what works.
 
