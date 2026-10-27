@@ -40,6 +40,10 @@ The Music panel shows the notes playing as a ring of colours, and holds the cont
 
 ![The Music panel beside a starter kit: coloured balls joined by strands, the tempo dial, the four moods, the harmony pull and a saved scene](screenshots/13-living-score.png)
 
+**The music draws the background.** Far behind everything, the chord draws its own figures: what two pendulums swinging at the ratio of its notes would trace, the patterns sand makes on a ringing plate, and a slowly drifting fractal, all tinted by the notes being sung. It stays dim, soft and slow, so the balls always come first, and it can be switched off.
+
+![A light and a dark side by side, with faint pendulum figures and soft curving lines far behind them](screenshots/16-maths-background.png)
+
 **Your own sounds.** Drop in your own loops and sounds. The game works out each one's tempo, key or note; loops are stretched to the beat and moved into key, a line that plays one note at a time is tuned note by note, and single sounds are retuned to each ball's note. You choose which kind of ball plays which sound. Everything stays on your computer.
 
 ![My sounds: a loop recognised as 100 beats a minute, 8 beats long, in D minor, and a pluck recognised as the note E, with a choice of sound for dark, light and grey balls](screenshots/14-my-sounds.png)
@@ -61,7 +65,7 @@ Every tool sits on the rail at the left and has its own key. Each one also works
 | 8 | Fracture | Shake something until it may break. |
 | 9 | Fuse | Merge two things into one. |
 | 0 | Veil | Place a shield that keeps its inside apart from the outside. |
-| B | Bubble | Draw a see-through bubble that quiets what is inside it, or plays only that. It changes only the sound. |
+| B | Bubble | Draw a see-through bubble that quiets what is inside it, plays only that, or gives it an echo or a huge hall. It changes only the sound. |
 | L | Lens | Show the invisible: pooled light, passing vibration, the pull on each thing. |
 | K | Anchor | Hold something in place, or hold its rhythm or its energy. |
 
@@ -112,7 +116,7 @@ Every AI path is tested against a pretend Claude. No paid request has been made 
 
 ## Where it stands
 
-Version 1.4.0, 26 October 2026: the universe became an instrument. Balls wear the colour of the note they sing; the harmony pull draws agreeing notes together; your own loops and sounds can be added, fitted to the beat and the key and played by the balls; Mute, Solo, Remove, the Bubble and the Scissors shape the mix; tempo, mood, scenes and a starter kit sit in the Music panel; and the puzzles are six new Sound Puzzles. It installs, upgrades from 1.3.0, runs, saves and uninstalls cleanly, and passes 152 unit and integration tests, 57 interface tests in a headless browser (every puzzle solved through the screen, the tutorial played through, your own sounds added and heard in time), 6 desktop-app tests and the installer checks. Not yet checked: a real Claude request, and a first listen by a person.
+Version 1.5.0, 26 October 2026: a moving maths background drawn by the music, and Bubbles that can give an echo or a big space, on top of 1.4.0, which made the universe an instrument (note colours, the harmony pull, your own loops and sounds, the Bubble and the Scissors, tempo, moods and scenes, and six Sound Puzzles). It installs, upgrades from 1.4.0, runs, saves and uninstalls cleanly, holds its frame limit at every graphics level in testing, and passes 158 unit and integration tests, 58 interface tests in a headless browser (every puzzle solved through the screen, the tutorial played through, your own sounds added and heard in time), 6 desktop-app tests and the installer checks. Not yet checked: a real Claude request, and a first listen and look by a person.
 
 The source code is private. This page shows what the game is and what works.
 
